@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  laravel-docker-images:
+    image: laravel-docker-images
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080

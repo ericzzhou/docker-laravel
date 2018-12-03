@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  laravel-docker-images:
+    image: laravel-docker-images
+    build: .
+    ports:
+      - 8080:8080
